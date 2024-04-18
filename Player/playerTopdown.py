@@ -10,7 +10,7 @@ class player:
         self.w = w
         self.h = h
         self.speed = speed
-        self.original_sprite = pygame.image.load(loadSprite)#Replace with funciton to chose sprite    
+        self.original_sprite = pygame.image.load(loadSprite)
         self.sprite = self.original_sprite    
         self.rect = self.sprite.get_rect(center = (x, y))
     #These are the default buttons for movement
